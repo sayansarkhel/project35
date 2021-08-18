@@ -88,7 +88,7 @@ function updateHeight(x,y){
     // 'x': height.x + x ,
     // 'y': height.y + y
   //})
- }
+ //}
 
 
 
