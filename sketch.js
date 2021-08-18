@@ -83,11 +83,11 @@ function updateHeight(x,y){
  }
 
 
- function updateHeight(x,y){
-   database.ref().set({
-     'x': height.x + x ,
-     'y': height.y + y
-  })
+// function updateHeight(x,y){
+  // database.ref().set({
+    // 'x': height.x + x ,
+    // 'y': height.y + y
+  //})
  }
 
 
@@ -105,9 +105,9 @@ function updateHeight(x,y){
 //   balloon.y = height.y;
 // }
 
- function readHeight(data){
-   height = data.val();
- 
+ //function readHeight(data){
+   //height = data.val();
+}
  function readHeight(){
    height = val();
    balloon.x = height.x;
@@ -116,5 +116,4 @@ function updateHeight(x,y){
 
 function showError(){
   console.log("Error in writing to the database");
-}
 }
